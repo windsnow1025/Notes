@@ -2,6 +2,9 @@
 
 - Checkbox: ☑
 
+- Google Takeout
+  - Deselect: Google Drive, YouTube and YouTube Music - videos
+
 - Adobe disable Recent Files
   - Preferences >> File Handling >> Recent File List Contains: 0
 
