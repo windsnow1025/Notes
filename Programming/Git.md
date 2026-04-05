@@ -7,6 +7,14 @@
     git add .
     ```
 
+- Force Push:
+
+    ```bash
+    git remote add origin git@github.com:<username>/<repository>.git
+    git remote set-url origin https://github.com/<username>/<repository>.git
+    git push --force --all
+    ```
+
 - Garbage Collection
 
     ```git
@@ -38,13 +46,6 @@
     git reflog expire --expire=now --all
     git gc --prune=now
     git filter-repo --path <filepath> --invert-path [--refs branch] [--force]
-    ```
-
-    Force Push:
-    ```bash
-    git remote add origin git@github.com:<username>/<repository>.git
-    git remote set-url origin https://github.com/<username>/<repository>.git
-    git push --force --all
     ```
 
 - Mixed Reset last commit
