@@ -2,9 +2,6 @@
 
 - Checkbox: ☑
 
-- Google Takeout
-  - Deselect: Google Drive, YouTube and YouTube Music - videos
-
 - Adobe disable Recent Files
   - Preferences >> File Handling >> Recent File List Contains: 0
 
@@ -19,6 +16,13 @@
 
 - Microsoft Edge managed by your organization
   - Registry Editor >> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft >> Delete Edge folder
+
+## Google
+
+- Google Takeout
+  - Deselect: Google Drive, YouTube and YouTube Music
+- Google Payment clear unavailable payment methods
+  - Google Payments Center >> Subscriptions and Services >> Click `manage` on one subscription >> Manage payment methods
 
 ## Windows
 - Hyper-V boot loader failed
