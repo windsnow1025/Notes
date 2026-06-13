@@ -27,6 +27,9 @@ crictl rmi --prune
 /usr/local/bin/k3s-uninstall.sh
 ```
 
+- "Unhandled Error" err="couldn't get current server API group list: the server has asked for the client to provide credentials"
+  - `systemctl restart k3s`
+
 ## Docker Commands
 
 - Build: `docker build [--no-cache] -t <username>/<repository> <path>`
