@@ -2,20 +2,19 @@
 
 - Checkbox: ☑
 
+- Spotify delete Local File Resources
+  - Delte Spotify folder in `C:\Users\{username}\AppData\Local\Packages`
+
+- Enable Intel graphic card in ASUS motherboard
+  - BIOS >> Advanced >> Graphics Configuration >> iGPU Multi-Monitor >> Enabled
+
+## Adobe
+
 - Adobe disable Recent Files
   - Preferences >> File Handling >> Recent File List Contains: 0
 
 - Adobe Premiere Pro preview glich
   - RightClick Preview Window >> Enable `High Quality Playback`
-
-- Spotify delete Local File Resources
-  - Delte Spotify folder in `C:\Users\{username}\AppData\Local\Packages`
-
-- Enable Intel graphic card in Asus motherboard
-  - BIOS >> Advanced >> Graphics Configuration >> iGPU Multi-Monitor >> Enabled
-
-- Microsoft Edge managed by your organization
-  - Registry Editor >> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft >> Delete Edge folder
 
 ## Google
 
@@ -26,7 +25,13 @@
 - Google Payment clear unavailable payment methods
   - Google Payments Center >> Subscriptions and Services >> Click `manage` on one subscription >> Manage payment methods
 
+## Microsoft
+
+- Microsoft Edge managed by your organization
+  - Registry Editor >> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft >> Delete Edge folder
+
 ## Windows
+
 - Hyper-V boot loader failed
   - Hold down a key when starting up the virtual machine
 
@@ -53,7 +58,7 @@
 
 - Permanently Remove Disk Data: `cipher /w:<driver_letter>`
 
-## Microsoft 365
+### Microsoft 365
 
 - Microsoft Excel change default font
   - File >> Options >> Language >> Office authoring languages and proofing >> Remove `Chinese (Simplified)`
@@ -61,7 +66,7 @@
 - Microsoft Onenote fix Quick Notes language
   - Delete `%HOMEPATH%\AppData\Local\Microsoft\OneNote`
 
-### Microsoft Word
+#### Microsoft Word
 
 - Change default font
   - `Design` >> `Fonts` >> `Office: Aptos Display` >> `Set as Default`

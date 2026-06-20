@@ -27,13 +27,13 @@
 - dll not found
   - Environment Variables >> System Variables >> Path >> Add `%HOMEPATH%\AppData\Local\Programs\CLion\bin\mingw\bin` or `%HOMEPATH%\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\\bin\mingw\bin`
 
-### Pycharm
+### PyCharm
 
 - Remove Invalid Interpreters
   - Show all >> Deselect `Hide virtual environments associated with other projects` >> Remove Interpreter
 
 - Export The Jupyter Notebook
-  1. right click the Notebook >> `Export Notebook As...` >> `HTML`
+  1. Right click the Notebook >> `Export Notebook As...` >> `HTML`
   2. View HTML in Edge >> Screenshot >> Capture full page
 
 ## Visual Studio Code
