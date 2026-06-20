@@ -20,9 +20,13 @@
 
 ### Common
 
-Symlink for `.env`:
+Symlink for secret:
+
+```bash
+set "file=.env"
+```
 
 ```bash
 set "rel=%CD:C:\windsnow1024\GitHub\=%"
-mklink ".env" "Q:\GitHub\%rel%\.env"
+mklink "%file%" "Q:\GitHub\%rel%\%file%"
 ```
