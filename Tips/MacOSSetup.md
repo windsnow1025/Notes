@@ -1,5 +1,10 @@
 # MacOS Setup
 
+- View hidden items in finder
+```bash
+defaults write com.apple.Finder AppleShowAllFiles YES
+```
+
 - Disable Mouse Acceleration
 
 ```bash
