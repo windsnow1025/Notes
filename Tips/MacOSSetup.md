@@ -15,4 +15,6 @@ brew install --cask linearmouse
   - Swipe between pages: Scroll Left or Right with Two Fingers
   - App Exposé: Swipe Down with Four Fingers
 - Pointer Control
-  - Dragging style: Three Finger Drag
+  - Trackpad Options
+    - Use trackpad for dragging
+    - Dragging style: Three Finger Drag
