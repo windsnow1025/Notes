@@ -18,3 +18,7 @@ brew install --cask linearmouse
   - Trackpad Options
     - Use trackpad for dragging
     - Dragging style: Three Finger Drag
+
+- Disable Click wallpaper to show desktop
+  - Desktop & Dock >> Desktop & Stage Manager
+    - Click wallpaper to show desktop: Only in Stage Manager
