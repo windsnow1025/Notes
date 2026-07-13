@@ -3,7 +3,6 @@
 ## Kubernetes
 
 - Get deployments
-
   ```bash
   kubectl get deployments [-n <namespace>]
   ```
@@ -16,19 +15,14 @@
 ## K3S
 
 - Prune unused images
-
-```bash
-crictl rmi --prune
-```
+  ```bash
+  crictl rmi --prune
+  ```
 
 - Uninstall K3S
-
-```bash
-/usr/local/bin/k3s-uninstall.sh
-```
-
-- "Unhandled Error" err="couldn't get current server API group list: the server has asked for the client to provide credentials"
-  - `systemctl restart k3s`
+  ```bash
+  /usr/local/bin/k3s-uninstall.sh
+  ```
 
 ## Docker Commands
 
@@ -83,17 +77,11 @@ docker volume rm $(docker volume ls -q)
 ### Docker Compose Commands
 
 - Start: `docker compose up [-d]`
-
 - Stop: `docker compose down`
-
 - Build: `docker compose build`
-
 - Push: `docker compose push`
-
 - Pull: `docker compose pull`
-
 - Logs: `docker compose logs [-f] [service_name]`
-
 - Stop containers, networks, and volumes: `docker compose down --volumes`
 
 ## Troubleshooting
