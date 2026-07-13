@@ -6,12 +6,9 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 ```
 
 - Disable Mouse Acceleration
+  - Mouse >> Advanced... >> Turn off Pointer acceleration
 
-```bash
-brew install --cask linearmouse
-```
-
-- Trackpad Gestures >> More Guestures
+- Trackpad Gestures >> More Gestures
   - Swipe between pages: Scroll Left or Right with Two Fingers
   - App Exposé: Swipe Down with Four Fingers
 - Pointer Control
