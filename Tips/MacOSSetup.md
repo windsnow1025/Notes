@@ -19,3 +19,6 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Disable Click wallpaper to show desktop
   - Desktop & Dock >> Desktop & Stage Manager
     - Click wallpaper to show desktop: Only in Stage Manager
+
+- Set default app for a file type
+  - Select a file >> Command + I >> Open with, Change All...
