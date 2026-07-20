@@ -7,6 +7,8 @@
 
 ## JetBrains
 
+- Enable Force Push
+  - Settings >> Version Control >> Git >> Push >> clear Protected Branches
 - Auto format
   - Format document: Ctrl + Alt + L
 - Duplicate line: Ctrl + D
