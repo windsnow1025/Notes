@@ -18,10 +18,7 @@
 
 ## Google
 
-- Google Takeout deselect
-  - Google Drive
-  - YouTube and YouTube Music
-    - videos
+- `Google Takeout` deselect: `Drive`
 - Google Payment clear unavailable payment methods
   - Google Payments Center >> Subscriptions and Services >> Click `manage` on one subscription >> Manage payment methods
 
