@@ -21,6 +21,11 @@ defaults write com.apple.Finder AppleShowAllFiles YES
   - `Desktop & Dock` >> `Desktop & Stage Manager`
     - `Click wallpaper to show desktop`: `Only in Stage Manager`
 
+- Terminal Enable Comments
+  ```bash
+  setopt interactive_comments
+  ```
+
 - Prevent Sleeping when Display Off
   - `Battery` >> `Options...`
     - `Prevent automatic sleeping on power adapter when the display is off`
