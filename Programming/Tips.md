@@ -7,6 +7,8 @@
 
 ## JetBrains
 
+- Not keep previous versions
+  - Toolbox >> Tools >> Disable: Keep previous versions of tools to enable instant rollback
 - Enable Force Push
   - Settings >> Version Control >> Git >> Push >> clear Protected Branches
 - Auto format
