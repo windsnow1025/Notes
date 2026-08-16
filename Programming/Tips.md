@@ -24,7 +24,7 @@
 
 ### DataGrip
 
-- Terminal: Install `Terminal` plugin >> Alt + F12
+- Terminal: Install `Terminal` plugin >> `More tool windows` >> `Terminal`: `Pin`
 - Object Storage: Install `Big Data Tool` plugin
 
 ### CLion
