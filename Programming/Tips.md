@@ -11,16 +11,18 @@
   - Toolbox >> Tools >> Disable: Keep previous versions of tools to enable instant rollback
 - Enable Force Push
   - Settings >> Version Control >> Git >> Push >> clear Protected Branches
-- Auto format
-  - Format document: Ctrl + Alt + L
-- Duplicate line: Ctrl + D
-- Reduce Indentation: Shift + Tab
-- Column Selection Mode: Alt + Shift + Insert
-- Select occurrence
-  - Select next: Alt + J
-  - Select all: Ctrl + Shift + Alt + J
 - Configurations >> Store as project file: not stored
   - Close the IDE
+- Key Bindings
+  - Search Actions
+    - `Ctrl + Shift + A`
+  - Auto format
+    - Format document: `Ctrl + Alt + L`
+  - Duplicate line: `Ctrl + D`
+  - Select occurrence
+    - Select next: `Alt + J`
+    - Select all: `Ctrl + Shift + Alt + J`
+  - Column Selection Mode: `Alt + Shift + Insert`
 
 ### DataGrip
 
