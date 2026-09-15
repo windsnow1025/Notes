@@ -7,6 +7,11 @@
   kubectl get deployments [-n <namespace>]
   ```
 
+- Delete resources
+  ```bash
+  kubectl delete <resource_type>/<resource_name> [-n <namespace>]
+  ```
+
 - `"Unhandled Error" err="couldn't get current server API group list: the server has asked for the client to provide credentials"`
   ```bash
   systemctl restart k3s
