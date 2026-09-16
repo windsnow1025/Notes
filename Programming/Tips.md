@@ -7,11 +7,13 @@
 
 ## JetBrains
 
-- Not keep previous versions
-  - Toolbox >> Tools >> Disable: Keep previous versions of tools to enable instant rollback
+- Discard previous IDE versions files
+  - Toolbox >> Tools >> Disable: `Keep previous versions of tools to enable instant rollback`
+- Create Git Repository
+  - `Ctrl + Shift + A`: Create Git Repository
 - Enable Force Push
-  - Settings >> Version Control >> Git >> Push >> clear Protected Branches
-- Configurations >> Store as project file: not stored
+  - `Settings` >> `Version Control` >> `Git` >> `Push` >> clear `Protected Branches`
+- `Configurations` >> `Store as project file`: not stored
   - Close the IDE
 - Key Bindings
   - Search Actions
