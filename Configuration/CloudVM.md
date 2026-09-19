@@ -4,44 +4,38 @@
 
 - Switch User: `su - <username>`
 - OS: `cat /etc/os-release`
-- Disk: `df -h`
-- RAM: `free -h`
 - CPU: `top`
+- RAM: `free -h`
+- Disk: `df -h`
 - Fetch URL: `wget --spider <url>`
 
 ## Root Login
 
 1. Create password for root user
-
-```bash
-sudo passwd root
-```
-
+    ```bash
+    sudo passwd root
+    ```
 2. Login as root user
-
-```bash
-su -
-```
+    ```bash
+    su -
+    ```
 
 ### SSH Key Pair
 
 1. Generate key pair
-
-```bash
-ssh-keygen -t rsa
-```
+    ```bash
+    ssh-keygen -t rsa
+    ```
 
 2. Copy public key to authorized keys
-
-```bash
-cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
-```
+    ```bash
+    cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+    ```
 
 3. View private key and save to `id_rsa`
-
-```bash
-cat /root/.ssh/id_rsa
-```
+    ```bash
+    cat /root/.ssh/id_rsa
+    ```
 
 ### Permit Root Login (Optional: GCP)
 
@@ -50,8 +44,8 @@ cat /root/.ssh/id_rsa
     vim /etc/ssh/sshd_config
     ```
 
-   Edit:
-    ```bash
+    Edit:
+    ```config
     PermitRootLogin yes
     ```
 
@@ -63,26 +57,24 @@ cat /root/.ssh/id_rsa
 ## Nginx + HTTPS
 
 1. Install Nginx
-  ```bash
-  apt update
-  apt install nginx
-  apt install libnginx-mod-stream
-  ```
+    ```bash
+    apt update
+    apt install nginx
+    apt install libnginx-mod-stream
+    ```
 2. Update config files: `/etc/nginx/nginx.conf` and `/etc/nginx/sites-available/default`
 3. Reload config: `nginx -s reload`
 4. Certbot Certificates
-
-  ```bash
-  apt install snapd
-  snap install core
-  snap install --classic certbot
-  ln -s /snap/bin/certbot /usr/bin/certbot
-  ```
-
+    ```bash
+    apt install snapd
+    snap install core
+    snap install --classic certbot
+    ln -s /snap/bin/certbot /usr/bin/certbot
+    ```
 5. Cert
-  ```bash
-  certbot --nginx
-  ```
+    ```bash
+    certbot --nginx
+    ```
 
 ### Nginx Command
 
