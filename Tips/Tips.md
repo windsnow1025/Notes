@@ -29,6 +29,9 @@
 
 ## Windows
 
+- The file or directory is corrupted and unreadable
+  - `chkdsk <Driver_Letter>: /f`
+
 - Hyper-V boot loader failed
   - Hold down a key when starting up the virtual machine
 
@@ -37,7 +40,7 @@
   - Settings >> Accounts >> Sign-in options >> Untick `For improved security, only allow ...`
   - View >> Tick `Enhanced session`
 
-- EXE crashes immediately upon launch without error message displayed.
+- EXE crashes immediately upon launch without any error message displayed.
   - Use CMD to directly open the executable file by entering its path
 
 - RDP: This user account's password has expired
