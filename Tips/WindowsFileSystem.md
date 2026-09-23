@@ -19,3 +19,4 @@
 | WSL2 Disk                        | `%USERPROFILE%\AppData\Local\Packages\<package_name>\LocalState\ext4.vhdx`               |
 | Recycle Bin                      | `Recycle Bin`                                                                            | 
 | Claude Code conversation history | `%HOMEPATH%\.claude\projects\`                                                           |
+| Espanso Config                   | `%HOMEPATH%\AppData\Roaming\espanso\match`                                               |
