@@ -133,7 +133,7 @@ opkg install /root/luci-app-openclash_<version>.ipk
   - Change clash config: dns > fallback
   - Add clash config: dns > nameserver-policy > "+.googlevideo.com": 8.8.8.8
   - Disable QUIC in Browser
-- Meta Core only display IP in Log
+- Meta Core only displays IP in Log
   - Overwrite Settings >> Meta Settings >> Enable `Enable Sniffer`, `Forced Sniff Pure IP`, `Custom Sniffer Settings`
 - OpenWRT Hostname not working
   1. Network >> Global network options >> Set `IPv6 ULA-Prefix` (e.g.: `fc00::/64`)
@@ -142,6 +142,19 @@ opkg install /root/luci-app-openclash_<version>.ipk
   - Switch to TUN mode
 - WSL2 network problem
   - Switch to MIX mode
+
+### T-Mobile Wi-Fi Calling
+
+- Wi-Fi Calling uses IPsec protocol with two phases:
+  - IKE negotiation phase: Uses UDP ports `500/4500` (can be proxied by OpenClash)
+  - Data transmission phase: Uses IPsec ESP protocol (cannot be proxied by OpenClash)
+
+- The Problem: If negotiation goes through proxy but data transmission bypasses proxy, connection will fail due to IP mismatch
+
+- Solutions:
+  - Wi-Fi without proxy: Change Wi-Fi DNS to `1.1.1.1` for clean DNS resolution
+  - Hotspot: Disable Private DNS
+  - Wi-Fi with proxy: Use OpenClash - Dashboard - Connection to identify the IP/domain connecting via port `500/4500`, then configure it to connect without proxy
 
 ## Shadowsocks Installation
 
