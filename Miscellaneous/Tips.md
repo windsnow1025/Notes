@@ -101,4 +101,11 @@
 
 1. Check package names: `adb shell cmd package list packages -u`
 2. Reinstall package: `adb shell cmd package install-existing <package_name>`
-3. Permenantly uninstall package: `adb shell pm uninstall <package_name>`
+3. Permanently uninstall package: `adb shell pm uninstall <package_name>`
+
+## Entertainment
+
+### Steam
+
+- Remove a game from library
+  - View My Profile >> Get Support >> Select the game >> I want to permanently remove this game from my account
