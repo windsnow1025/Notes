@@ -4,12 +4,13 @@ Shortcut Guide: Win + Shift + /
 
 # Windows + R
 
-| Instructions                   | Input          |
-|--------------------------------|----------------|
-| Local Users and Groups         | lusrmgr.msc    |
-| User Accounts                  | netplwiz       |
-| Windows Server License Manager | slmgr.vbs -xpr |
-| About Windows Dialog           | winver         |
+| Instructions                   | Input            |
+|--------------------------------|------------------|
+| Local Users and Groups         | lusrmgr.msc      |
+| User Accounts                  | netplwiz         |
+| Windows Server License Manager | slmgr.vbs -xpr   |
+| About Windows Dialog           | winver           |
+| App Folder                     | shell:appsfolder |
 
 ## WIN+
 
