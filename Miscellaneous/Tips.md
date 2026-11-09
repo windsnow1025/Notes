@@ -21,6 +21,7 @@
 - `Google Takeout` deselect: `Drive`
 - Google Payment clear unavailable payment methods
   - Google Payments Center >> Subscriptions and Services >> Click `manage` on one subscription >> Manage payment methods
+- `Google Drive` removed shared with me: `Google Drive` Web >> Drag the item to trash
 
 ## Microsoft
 
